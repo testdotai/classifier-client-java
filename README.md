@@ -1,10 +1,10 @@
 # Test.ai Classifier - Java Client
 
-The code in this directory defines a client library for use with the gRPC-based Test.ai classifier server located in the main directory of this repo.
+The code in this directory defines a client library for use with the [gRPC-based Test.ai classifier server](https://github.com/testdotai/appium-classifier-plugin).
 
 ## Installation & Setup
 
-At this point, the library is not available on Maven Central for easy download. Instead, check the [Releases](https://github.com/testdotai/appium-classifier-plugin/releases) page to download pre-built Jarfiles you can import into your projects.
+At this point, the library is not available on Maven Central for easy download. Instead, check the [Releases](https://github.com/testdotai/classifier-client-java/releases) page to download pre-built Jarfiles you can import into your projects, or use Jitpack.
 
 ## Usage
 
