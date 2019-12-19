@@ -84,3 +84,12 @@ task fatJar(type: Jar) {
     }
     with jar
 }
+
+test {
+    outputs.upToDateWhen {false}
+    useJUnit()
+    testLogging {
+        exceptionFormat = 'full'
+        showStandardStreams = true
+    }
+}
